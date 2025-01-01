@@ -1,25 +1,22 @@
-當然可以！以下是一個超級完整的 `README.md` 文件，涵蓋了所有必要的細節，包括安裝、運行、解決依賴衝突、後端設置、功能和文件結構。
-
-```markdown
 # Firedragon Frontend
 
 這是一個基於 React 的聊天應用，使用 Flask 作為後端服務器。該應用允許用戶與 ChatGPT 進行對話，並支持 Markdown 格式的訊息顯示。
 
 ## 目錄
 
-- [安裝](#安裝)
-- [運行項目](#運行項目)
-- [解決依賴衝突](#解決依賴衝突)
-- [後端設置](#後端設置)
-- [功能](#功能)
-- [文件結構](#文件結構)
-- [聯繫方式](#聯繫方式)
+* [安裝](#安裝)
+* [運行項目](#運行項目)
+* [解決依賴衝突](#解決依賴衝突)
+* [後端設置](#後端設置)
+* [功能](#功能)
+* [文件結構](#文件結構)
+* [聯繫方式](#聯繫方式)
 
 ## 安裝
 
 首先，克隆這個倉庫到你的本地機器：
 
-```sh
+```bash
 git clone https://github.com/yourusername/firedragonfrontend.git
 cd firedragonfrontend
 ```
@@ -28,7 +25,7 @@ cd firedragonfrontend
 
 ### 使用 npm
 
-```sh
+```bash
 npm install
 ```
 
@@ -36,7 +33,7 @@ npm install
 
 如果你更喜歡使用 yarn，可以運行以下命令：
 
-```sh
+```bash
 yarn install
 ```
 
@@ -46,13 +43,13 @@ yarn install
 
 ### 使用 npm
 
-```sh
+```bash
 npm start
 ```
 
 ### 使用 yarn
 
-```sh
+```bash
 yarn start
 ```
 
@@ -70,13 +67,13 @@ ERESOLVE unable to resolve dependency tree
 
 1. 在你的項目根目錄中運行以下命令來升級 React 和 ReactDOM：
 
-   ```sh
+   ```bash
    npm install react@18 react-dom@18
    ```
 
 2. 然後安裝 `react-scripts`：
 
-   ```sh
+   ```bash
    npm install react-scripts
    ```
 
@@ -84,7 +81,7 @@ ERESOLVE unable to resolve dependency tree
 
 1. 在你的項目根目錄中運行以下命令來安裝 `react-scripts`，忽略 peer 依賴衝突：
 
-   ```sh
+   ```bash
    npm install react-scripts --legacy-peer-deps
    ```
 
@@ -92,13 +89,13 @@ ERESOLVE unable to resolve dependency tree
 
 1. 首先，安裝 `yarn`：
 
-   ```sh
+   ```bash
    npm install -g yarn
    ```
 
 2. 然後，在你的項目根目錄中運行以下命令來安裝所有依賴：
 
-   ```sh
+   ```bash
    yarn install
    ```
 
@@ -109,28 +106,28 @@ ERESOLVE unable to resolve dependency tree
 1. 安裝 Python 和 pip。
 2. 創建虛擬環境並激活它：
 
-   ```sh
+   ```bash
    python -m venv venv
    source venv/bin/activate  # 對於 Windows，運行 `venv\Scripts\activate`
    ```
 
 3. 安裝後端依賴：
 
-   ```sh
+   ```bash
    pip install -r requirements.txt
    ```
 
 4. 運行後端服務器：
 
-   ```sh
+   ```bash
    python app.py
    ```
 
 ## 功能
 
-- 與 ChatGPT 進行對話
-- 支持 Markdown 格式的訊息顯示
-- 重新整理按鈕可以清除所有聊天訊息並通知後端清除所有線程
+* 與 ChatGPT 進行對話
+* 支持 Markdown 格式的訊息顯示
+* 重新整理按鈕可以清除所有聊天訊息並通知後端清除所有線程
 
 ## 文件結構
 
@@ -155,6 +152,5 @@ firedragonfrontend/
 
 ## 聯繫方式
 
-如果你有任何問題或建議，請隨時聯繫我。
-
-```
+如果你有任何問題或建議，請隨時聯繫我。  
+DC: firedragonz
